@@ -30,11 +30,11 @@ html, body {
 }
 
 :root {
-    --primary-color: #FE0039;
-    --navbar-bg: #0A1627;
+    --primary-color: #ff3908;
+    --navbar-bg: #1f2025;
     --text-color-light: #fff;
     --text-color-dark: #000;
-    --body-bg: #03071E;
+    --body-bg: #4e4e52;
     --footer-bg: #040b14;
     
     --font-family: 'Montserrat', sans-serif;
@@ -47,7 +47,9 @@ html, body {
 }
 
 .navbar-brand img {
-    height:55px
+    height:55px;
+    border: 1.5px solid var(--primary-color);
+    border-radius: 5px
 }
 
 .nav-link:hover {
@@ -59,7 +61,7 @@ html, body {
 }
 
 .cart:hover {
-    transform: scale(1.2) !important
+    /* transform: scale(1.2) !important */
 }
 /* Header End */
 
