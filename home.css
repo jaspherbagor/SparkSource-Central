@@ -56,17 +56,7 @@ html, body {
     color:var(--primary-color) !important
 }
 
-.cart-icon {
-    color:var(--primary-color)
-}
-
-.cart:hover {
-    /* transform: scale(1.2) !important */
+input[type=search], button.search-btn {
+    border: 1.5px solid var(--primary-color)
 }
 /* Header End */
-
-/* Hero Section Start */
-.hero {
-    background:var(--body-bg)
-}
-/* Hero Section End */
