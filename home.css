@@ -45,7 +45,8 @@ html, body {
 
 /* Header Start */
 .navbar {
-    background: var(--navbar-bg)
+    background: var(--navbar-bg);
+    z-index: 1000;
 }
 
 .navbar-brand img {
@@ -113,6 +114,12 @@ a.know-more-btn:hover {
 
 /* Featured Products Categories Start */
 .featured-products-categories h2 span {
-    
+    color:var(--primary-color)
 }
 /* Featured Product Categories End */
+
+/* Featured Products Section Start */
+.featured-products h2 span {
+    color: var(--primary-color)
+}
+/* Featured Products Section End */
