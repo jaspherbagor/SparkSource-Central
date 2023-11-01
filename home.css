@@ -40,7 +40,8 @@ html, body {
 
     
     --font-family: 'Montserrat', sans-serif;
-    --footer-fs:10px
+    --footer-fs:10px;
+    --card-width: 22rem;
 }
 
 /* Header Start */
@@ -88,7 +89,6 @@ a.learnmore-btn:hover, a.buynow-btn:hover {
     background:var(--text-color-light);
     border: 1.5px solid var(--primary-color);
     color:var(--primary-color);
-    box-shadow: -5px 0px 37px 10px rgba(250,250,250,0.2);
 }
 /* Hero Section End */
 
@@ -108,7 +108,6 @@ a.know-more-btn:hover {
     background:var(--text-color-light);
     border: 1.5px solid var(--primary-color);
     color:var(--primary-color);
-    box-shadow: -5px 0px 37px 10px rgba(0,0,0,0.2);
 }
 /* About Us Section End */
 
@@ -116,10 +115,86 @@ a.know-more-btn:hover {
 .featured-products-categories h2 span {
     color:var(--primary-color)
 }
+
+.lighting-fixtures, .wiring-and-cables, .wiring-connectors, .tools-and-accessories, .safety-and-protection, .switches-and-outlets {
+    box-shadow: -5px 0px 37px 10px rgba(0,0,0,0.2);
+}
+
+.featured-products-categories div div h3 {
+    background: rgba(0,0,0,0.2);
+    border: 2px solid var(--primary-color)
+}
+
+.lighting-fixtures {
+    background: url(./lighting-fixtures2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.wiring-and-cables {
+    background: url('./wire-and-cables-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.wiring-connectors {
+    background: url('./wiring-connectors.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.tools-and-accessories {
+    background: url('./tools-and-accessories.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.safety-and-protection {
+    background: url('./safety-and-protection.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.switches-and-outlets {
+    background: url('./switch-and-outlet.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
 /* Featured Product Categories End */
 
 /* Featured Products Section Start */
 .featured-products h2 span {
     color: var(--primary-color)
 }
+
+.card {
+    width: var(--card-width);
+    border: 2px solid var(--primary-color) !important;
+    border-radius: 10px;
+    box-shadow: -5px 0px 37px 10px rgba(0,0,0,0.2);
+}
+
+.product-rate-icons i, .card-body h5 {
+    color: var(--primary-color)
+}
+
+a.add-to-cart-btn, a.buy-now-btn, a.see-more-btn {
+    background:var(--navbar-bg);
+    border: 1.5px solid var(--primary-color);
+    color:var(--text-color-light);
+    box-shadow: -5px 0px 37px 10px rgba(0,0,0,0.2);
+}
+
+a.add-to-cart-btn:hover, a.buy-now-btn:hover, a.see-more-btn:hover {
+    background:var(--text-color-light);
+    border: 1.5px solid var(--primary-color);
+    color:var(--primary-color);
+}
+
 /* Featured Products Section End */
