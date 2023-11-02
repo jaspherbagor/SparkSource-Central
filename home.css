@@ -93,7 +93,7 @@ a.learnmore-btn:hover, a.buynow-btn:hover {
 /* Hero Section End */
 
 /* About Us Section Start */
-.about-us h2 span, .about-us-right p i {
+.about-us h2 span, .about-us-right h5 i {
     color:var(--primary-color)
 }
 
