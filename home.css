@@ -226,3 +226,8 @@ button[type=submit]:hover {
     color:var(--primary-color);
 }
 /* Newsletter Subscription Section End */
+
+/* Featured Brands Section Start */
+.featured-brands h2 span {
+    color:var(--primary-color)
+}
