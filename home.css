@@ -231,6 +231,10 @@ button[type=submit]:hover {
 .featured-brands h2 span {
     color:var(--primary-color)
 }
+
+div.brand-images {
+    width: 100px
+}
 /* Featured Brands Section End */
 
 /* Footer Section Start */
@@ -251,5 +255,4 @@ img.logo-img {
 .footer-down {
     background:var(--footer-bg)
 }
-
 /* Footer Section End */
