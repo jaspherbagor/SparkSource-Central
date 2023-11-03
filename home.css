@@ -58,7 +58,6 @@ html, body {
 
 .nav-link:hover {
     color:var(--primary-color) !important;
-    border-bottom: 2px solid var(--primary-color) !important
 }
 
 input[type=search], button.search-btn {
