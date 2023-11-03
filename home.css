@@ -57,7 +57,8 @@ html, body {
 }
 
 .nav-link:hover {
-    color:var(--primary-color) !important
+    color:var(--primary-color) !important;
+    border-bottom: 2px solid var(--primary-color) !important
 }
 
 input[type=search], button.search-btn {
@@ -250,6 +251,10 @@ img.logo-img {
 
 .footer-text-and-logo p, .customer-service p, .quick-links p {
     line-height: 15px;
+}
+
+.customer-service p a:hover, .quick-links p a:hover, .social-icons a:hover {
+    color:var(--primary-color) !important
 }
 
 .footer-down {
