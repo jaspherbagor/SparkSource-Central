@@ -232,3 +232,24 @@ button[type=submit]:hover {
     color:var(--primary-color)
 }
 /* Featured Brands Section End */
+
+/* Footer Section Start */
+.footer {
+    background: var(--navbar-bg);
+}
+
+img.logo-img {
+    height:55px;
+    border: 1.5px solid var(--primary-color);
+    border-radius: 5px
+}
+
+.footer-text-and-logo p, .customer-service p, .quick-links p {
+    line-height: 15px;
+}
+
+.footer-down {
+    background:var(--footer-bg)
+}
+
+/* Footer Section End */
