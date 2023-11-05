@@ -19,9 +19,10 @@ h2, h1 {
     letter-spacing: 5px;
 }
 
-/* Paragraph Line Height */
+/* Paragraph Line Height & Text Alignnment */
 p {
     line-height: 30px;
+    text-align:justify
 }
 
 html, body {
@@ -63,6 +64,6 @@ input[type=search], button.search-btn {
 
 /* Blog Posts Section Start */
 .related-posts p {
-    line-height:10px
+    line-height:15px
 }
 /* Blog Posts Section End */
