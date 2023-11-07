@@ -60,3 +60,10 @@ input[type=search], button.search-btn {
     border: 1.5px solid var(--primary-color)
 }
 /* Header End */
+div.card {
+    border:1px solid var(--text-color-dark)
+}
+
+a.add-to-cart-btn {
+    border: 1px solid var(--primary-color)
+}
