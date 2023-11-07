@@ -172,6 +172,45 @@ a.know-more-btn:hover {
     color: var(--primary-color)
 }
 
+div.card {
+    border:2px solid var(--primary-color);
+    box-shadow: -5px 0px 37px 10px rgba(0,0,0,0.2);
+}
+
+div.card:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(255, 57, 8, 0.2) 15px 15px, rgba(255, 57, 8, 0.1) 20px 20px, rgba(255, 57, 8, 0.05) 25px 25px;
+}
+
+a.add-to-cart-btn {
+    border: 2px solid var(--primary-color);
+    background:var(--text-color-dark);
+    color:var(--primary-color);
+    box-shadow: -5px 0px 37px 10px rgba(0,0,0,0.2);
+}
+
+a.add-to-cart-btn:hover {
+    border: 2px solid var(--primary-color);
+    background:transparent;
+    color:var(--primary-color)
+}
+
+.product-rate-icons i {
+    color:var(--primary-color)
+}
+
+a.see-more-btn {
+    border: 2px solid var(--primary-color);
+    background:var(--text-color-dark);
+    color:var(--primary-color);
+    box-shadow: -5px 0px 37px 10px rgba(0,0,0,0.2);
+}
+
+a.see-more-btn:hover {
+    border: 2px solid var(--primary-color);
+    background:transparent;
+    color:var(--primary-color)
+}
 /* Featured Products Section End */
 
 /* Newsletter Subscription Section Start */
