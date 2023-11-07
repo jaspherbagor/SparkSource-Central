@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+    border:none;
+    outline:none;
+    scroll-behavior: smooth;
+    font-family:var(--font-family);
+    word-wrap: break-word;
+}
+
+/* Heading 2 & Heading 1 Spacing */
+h2, h1 {
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+/* Paragraph Line Height */
+p {
+    line-height: 30px;
+}
+
+html, body {
+    width:100%;
+    overflow-x:hidden
+}
+
+:root {
+    --primary-color: #ff3908;
+    --navbar-bg: #1f2025;
+    --text-color-light: #fff;
+    --text-color-dark: #000;
+    --body-bg: #4e4e52;
+    --footer-bg: #040b14;
+    
+    --font-family: 'Montserrat', sans-serif;
+    --footer-fs:10px
+}
+
+/* Header Start */
+.navbar {
+    background: var(--navbar-bg)
+}
+
+.navbar-brand img {
+    height:55px;
+    border: 1.5px solid var(--primary-color);
+    border-radius: 5px
+}
+
+.nav-link:hover {
+    color:var(--primary-color) !important
+}
+
+input[type=search], button.search-btn {
+    border: 1.5px solid var(--primary-color)
+}
+/* Header End */
