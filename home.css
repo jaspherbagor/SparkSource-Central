@@ -41,7 +41,8 @@ html, body {
     
     --font-family: 'Montserrat', sans-serif;
     --footer-fs:10px;
-    --card-width: 18rem;
+    --card-width: 23rem;
+    --card-height:80px;
 }
 
 /* Header Start */
@@ -175,14 +176,14 @@ a.know-more-btn:hover {
 
 .card {
     width: var(--card-width);
+    height: var(--card-height);
     border: 2px solid var(--primary-color) !important;
     border-radius: 10px;
     box-shadow: -5px 0px 37px 10px rgba(0,0,0,0.2);
 }
 
-.card img {
-    max-width:348px;
-    max-height:290px;
+.card-img-top {
+    /* height:300px; */
 }
 
 .product-rate-icons i, .card-body h5 {
@@ -260,12 +261,3 @@ img.logo-img {
     background:var(--footer-bg)
 }
 /* Footer Section End */
-
-/* Media Query Start */
-/* @media only screen and (max-width: 815px) {
-    .card {
-        max-width: 250px;
-        min-height:300px
-    }
-} */
-/* Media Query End */
