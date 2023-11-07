@@ -41,7 +41,7 @@ html, body {
     
     --font-family: 'Montserrat', sans-serif;
     --footer-fs:10px;
-    --card-width: 23rem;
+    --card-width: 18rem;
 }
 
 /* Header Start */
@@ -260,3 +260,12 @@ img.logo-img {
     background:var(--footer-bg)
 }
 /* Footer Section End */
+
+/* Media Query Start */
+/* @media only screen and (max-width: 815px) {
+    .card {
+        max-width: 250px;
+        min-height:300px
+    }
+} */
+/* Media Query End */
